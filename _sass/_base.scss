@@ -55,7 +55,8 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
+  margin-left:   1.5rem;  // by GZ, original 1rem
+  margin-bottom: 0.5rem;  // by GZ
   width: 100%;
 
   .address {
@@ -71,7 +72,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 25%;  // by GZ, original 30%
     .address {
       p { display: block; }
     }
@@ -80,7 +81,7 @@ blockquote {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 1rem; // by GZ, original 0.875rem;
   a {
     color: inherit;
     &:hover {
