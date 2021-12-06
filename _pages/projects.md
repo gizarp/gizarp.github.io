@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
-nav: true
-display_categories: [work, fun]
-horizontal: false
+title: projects-collection
+permalink: /projects-collection/
+description: Here is a collection of things I have been working on. Enjoy!
+nav: false
+display_categories: [research]
+horizontal: true
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
