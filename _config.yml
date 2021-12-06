@@ -37,8 +37,6 @@ footer_fixed: true
 # Dimensions
 max_width: 900px # 800px, modified by gz
 
-# TODO: add layout settings (single page vs. multi-page)
-
 # -----------------------------------------------------------------------------
 # Open Graph
 # -----------------------------------------------------------------------------
