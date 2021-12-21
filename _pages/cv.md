@@ -31,7 +31,7 @@ Graduate-level introduction to Mixed-Integer Linear Programming: modeling, expon
 
 - **Polytechnique Montréal** • P<small style="font-size: 75%">H.</small>D. in A<small style="font-size: 75%">PPLIED</small> M<small style="font-size: 75%">ATHEMATICS</small><br>
 <span style="color:gray">2015 - 2020 • Montréal, Canada • GPA: 4.0/4.0</span><br>
-  *Thesis:* "Machine learning algorithms in Mixed-Integer Programming"<br>
+  *Thesis:* [Machine learning algorithms in Mixed-Integer Programming](https://publications.polymtl.ca/5332/)<br>
   *Affiliations:* Canada Excellence Research Chair "Data Science for real-time Decision-Making" (DS4DM), GERAD, CIRRELT<br>
   *Training:* Implementation of Algorithms for Operations Research, Machine Learning, Applications of Game Theory
   

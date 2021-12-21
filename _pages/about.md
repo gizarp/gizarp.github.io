@@ -26,7 +26,7 @@ My research explores the **interplay of discrete optimization and statistical le
 
 I did my Ph.D. in Applied Mathematics at [Polytechnique Montréal](https://www.polymtl.ca/en/) | [CERC DS4DM](https://cerc-datascience.polymtl.ca), 
 under the guidance of [Prof. Andrea Lodi](http://cerc-datascience.polymtl.ca/person/dr-andrea-lodi/). 
-My dissertation focused on applying machine learning tools to the algorithmic design of practical optimization 
+My [dissertation](https://publications.polymtl.ca/5332/) focused on applying machine learning tools to the algorithmic design of practical optimization 
 frameworks like Mixed-Integer Programming (MIP). 
 Before, I completed Bachelor's and Master's programs in Mathematics at [University of Padova](https://www.math.unipd.it/en/).
 
