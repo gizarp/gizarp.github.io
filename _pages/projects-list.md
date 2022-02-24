@@ -43,7 +43,7 @@ Our results show that incorporating a search-tree context to modulate branching 
     
 - **A Classifier to Decide on the Linearization of MIQPs in CPLEX**<br>
   **Learning a Classification of Mixed-Integer Quadratic Programming Problems**<br>
-    <small style="font-size: 85%; color:gray">Joint with Pierre Bonami and Andrea Lodi. Submitted 2020 + CPAIOR 2018.</small>
+    <small style="font-size: 85%; color:gray">Joint with Pierre Bonami and Andrea Lodi. CPAIOR 2018 + Extended version (to appear in OR).</small>
     <br>
         <a href="https://github.com/ds4dm/miqp-clf2lin" target="_blank"> [code] </a>
         <a href="http://www.optimization-online.org/DB_HTML/2020/03/7662.html" target="_blank"> [preprint] </a>

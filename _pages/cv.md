@@ -3,7 +3,7 @@ layout: page
 permalink: /cv/
 title: cv | résumé
 description: My (academic) curriculum vitae can also be downloaded <a href="/assets/pdf/cv-gzarpellon-website.pdf" target="blank"><span style="color:orange">here</span></a>. <br>
-             If instead you are looking for a shorter résumé, click <a href="/assets/pdf/resume-gzarpellon-website.pdf" target="blank"><span style="color:orange">here</span></a>.
+             If instead you are looking for a shorter résumé, click <a href="/assets/pdf/resume-gzarpellon-website-202202.pdf" target="blank"><span style="color:orange">here</span></a>.
 nav: true
 ---
 
@@ -17,7 +17,7 @@ Postdoctoral research work at the intersection of AI and optimization, in the gr
   
 - **IBM Analytics** • R<small style="font-size: 75%">ESEARCH</small> I<small style="font-size: 75%">NTERN</small> <br>
 <span style="color:gray">2017 - 2018 • Montréal, Canada</span><br>
-  1-year collaboration with the IBM CPLEX Optimizer Developers Team to implement a predictive pipeline to decide an algorithmic switch for MIQPs (deployed in CPLEX 12.10.0).
+  1-year collaboration with the IBM CPLEX Optimizer development team to implement a predictive pipeline to decide an algorithmic switch for MIQPs (deployed in CPLEX 12.10.0).
   
 - **Polytechnique Montréal** • T<small style="font-size: 75%">EACHING</small> A<small style="font-size: 75%">SSISTANT</small> <br>
 <span style="color:gray">2017 - 2019 • Montréal, Canada</span><br>
@@ -66,7 +66,7 @@ For a complete list of publications, please see my Google Scholar [page](https:/
   
 - [A Classifier to Decide on the Linearization of Mixed-Integer Quadratic Problems in CPLEX](http://www.optimization-online.org/DB_HTML/2020/03/7662.html)<br>
   Pierre Bonami, Andrea Lodi and GZ (2020)<br>
-  *Online preprint*. Submitted, under review.
+  *To appear in Operations Research*.
   
 - [Learning MILP Resolution Outcomes Before Reaching Time-Limit](https://link.springer.com/chapter/10.1007/978-3-030-19212-9_18)<br>
   Martina Fischetti, Andrea Lodi and GZ (2019)<br>
