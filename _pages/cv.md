@@ -11,8 +11,11 @@ nav: true
 
 ### Experience
 
+- **UN Global Pulse** • D<small style="font-size: 75%">ATA</small> S<small style="font-size: 75%">CIENCE</small> R<small style="font-size: 75%">ESEARCH</small> F<small style="font-size: 75%">ELLOW</small><br>
+<span style="color:gray">2022 - present • New York, NY</span><br>
+
 - **Vector Institute** • AI S<small style="font-size: 75%">CIENTIST</small><br>
-<span style="color:gray">2021 - present • Toronto, Canada</span><br>
+<span style="color:gray">2021 - 2022 • Toronto, Canada</span><br>
 Postdoctoral research work at the intersection of AI and optimization, in the group of Prof. Chris Maddison.
   
 - **IBM Analytics** • R<small style="font-size: 75%">ESEARCH</small> I<small style="font-size: 75%">NTERN</small> <br>

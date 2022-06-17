@@ -18,7 +18,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi! I presently work as an **AI Scientist** at the [Vector Institute](https://vectorinstitute.ai), 
+Hi! I am presently based in New York City, where I work as **Data Science Research Fellow** at the [UN Global Pulse](https://www.unglobalpulse.org). 
+Before this I worked as an **AI Scientist** at the [Vector Institute](https://vectorinstitute.ai), 
 where I joined the group of [Prof. Chris Maddison](https://www.cs.toronto.edu/~cmaddis/). 
 My research explores the **interplay of discrete optimization and statistical learning**. 
 
