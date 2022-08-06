@@ -29,6 +29,29 @@ Our results show that incorporating a search-tree context to modulate branching 
 </div>
 -->
 
+- **Learning to Cut by Looking Ahead: Cutting Plane Selection via Imitation Learning**<br>
+    <small style="font-size: 85%; color:gray">Joint with Max B. Paulus, Andreas Krause, Laurent Charlin and Chris J. Maddison. ICML 2022.</small>
+    <br>
+        <a href="https://proceedings.mlr.press/v162/paulus22a.html" target="_blank"> [paper] </a>
+    <br>
+    We propose a new neural architecture (NeuralCut) for cut selection in Mixed-Integer Linear Programming (MILP). 
+    We train our model by imitation of a novel "lookahead" expert rule, which explicitly measures which cuts yield the best bound improvement.
+    Our model outperforms standard baselines for cut selection on several synthetic MILP benchmarks and shows its full potential when
+    deployed in a realistic MILP solver.
+  
+- **A Classifier to Decide on the Linearization of MIQPs in CPLEX** +<br>
+  **Learning a Classification of Mixed-Integer Quadratic Programming Problems**<br>
+    <small style="font-size: 85%; color:gray">Joint with Pierre Bonami and Andrea Lodi. Operations Research 2022 + CPAIOR 2018.</small>
+    <br>
+        <a href="https://github.com/ds4dm/miqp-clf2lin" target="_blank"> [code] </a>
+        <a href="https://pubsonline.informs.org/doi/abs/10.1287/opre.2022.2267" target="_blank"> [2022 paper] </a>
+        <a href="https://link.springer.com/chapter/10.1007/978-3-319-93031-2_43" target="_blank"> [2018 paper] </a>
+    <br>
+    We translate the algorithmic question of whether to linearize convex Mixed-Integer Quadratic Programming problems (MIQPs) into a classification task, 
+    and use machine learning techniques to tackle it. We represent MIQPs and the linearization decision by careful target and feature engineering, 
+    designing learning experiments and evaluation metrics. As a practical result, we deploy a SVM regression+classification pipeline deciding on MIQP 
+    linearization in the IBM-CPLEX 12.10.0 commercial solver.
+
 - **Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies**<br>
     <small style="font-size: 85%; color:gray">Joint with Jason Jo, Andrea Lodi and Yoshua Bengio. AAAI 2021.</small>
     <br>
@@ -40,19 +63,6 @@ Our results show that incorporating a search-tree context to modulate branching 
     seeking policies that generalize across heterogeneous MILPs.
     We develop new parameterizations of the candidate variables and of the search trees, and design DNN architectures to handle them.
     Our results show that incorporating a search-tree context to modulate branching aids generalization, with better test accuracy and smaller B&B trees.
-    
-- **A Classifier to Decide on the Linearization of MIQPs in CPLEX**<br>
-  **Learning a Classification of Mixed-Integer Quadratic Programming Problems**<br>
-    <small style="font-size: 85%; color:gray">Joint with Pierre Bonami and Andrea Lodi. CPAIOR 2018 + Extended version (to appear in OR).</small>
-    <br>
-        <a href="https://github.com/ds4dm/miqp-clf2lin" target="_blank"> [code] </a>
-        <a href="http://www.optimization-online.org/DB_HTML/2020/03/7662.html" target="_blank"> [preprint] </a>
-        <a href="https://link.springer.com/chapter/10.1007/978-3-319-93031-2_43" target="_blank"> [2018 paper] </a>
-    <br>
-    We translate the algorithmic question of whether to linearize convex Mixed-Integer Quadratic Programming problems (MIQPs) into a classification task, 
-    and use machine learning techniques to tackle it. We represent MIQPs and the linearization decision by careful target and feature engineering, 
-    designing learning experiments and evaluation metrics. As a practical result, we deploy a SVM regression+classification pipeline deciding on MIQP 
-    linearization in the IBM-CPLEX 12.10.0 commercial solver.
   
 - **Learning MILP Resolution Outcomes Before Reaching Time-Limit**<br>
     <small style="font-size: 85%; color:gray">Joint with Martina Fischetti and Andrea Lodi. CPAIOR 2019.</small>

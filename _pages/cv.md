@@ -2,9 +2,13 @@
 layout: page
 permalink: /cv/
 title: cv | résumé
-description: My (academic) curriculum vitae can also be downloaded <a href="/assets/pdf/cv-gzarpellon-website.pdf" target="blank"><span style="color:orange">here</span></a>. <br>
-             If instead you are looking for a shorter résumé, click <a href="/assets/pdf/resume-gzarpellon-website-202202.pdf" target="blank"><span style="color:orange">here</span></a>.
+description: Here is a summary of what I have recently been doing.
 nav: true
+
+[comment]: <> (My &#40;academic&#41; curriculum vitae can also be downloaded <a href="/assets/pdf/cv-gzarpellon-202208.pdf" target="blank"><span style="color:orange">here</span></a>. <br>)
+
+[comment]: <> (             If instead you are looking for a shorter résumé, click <a href="/assets/pdf/resume-gzarpellon-website-202202.pdf" target="blank"><span style="color:orange">here</span></a>.)
+
 ---
 
 [comment]: <> (Note: smallcaps unsatisfying so resorting to smaller font-size)
@@ -13,18 +17,31 @@ nav: true
 
 - **UN Global Pulse** • D<small style="font-size: 75%">ATA</small> S<small style="font-size: 75%">CIENCE</small> R<small style="font-size: 75%">ESEARCH</small> F<small style="font-size: 75%">ELLOW</small><br>
 <span style="color:gray">2022 - present • New York, NY</span><br>
+Multidisciplinary data science efforts for humanitarian response and situational awareness in crisis contexts. 
+  Assessing needs and collaborating with UN partner entities.
 
 - **Vector Institute** • AI S<small style="font-size: 75%">CIENTIST</small><br>
 <span style="color:gray">2021 - 2022 • Toronto, Canada</span><br>
-Postdoctoral research work at the intersection of AI and optimization, in the group of Prof. Chris Maddison.
+Postdoctoral research work in the group of Prof. Chris J. Maddison. 
+  Designed novel deep learning models to answer research questions at the intersection of AI and optimization. 
+  Served as reference figure in optimization for students and faculty involved in the projects.
   
-- **IBM Analytics** • R<small style="font-size: 75%">ESEARCH</small> I<small style="font-size: 75%">NTERN</small> <br>
+- **IBM Analytics** • R<small style="font-size: 75%">ESEARCH</small> A<small style="font-size: 75%">SSISTANT</small> <br>
 <span style="color:gray">2017 - 2018 • Montréal, Canada</span><br>
-  1-year collaboration with the IBM CPLEX Optimizer development team to implement a predictive pipeline to decide an algorithmic switch for MIQPs (deployed in CPLEX 12.10.0).
+One year collaboration with the IBM‐CPLEX Optimizer development team to implement an end‐to‐end ML predictive pipeline to decide an algorithmic switch for MIQPs. 
+  Assisted scaling, integration and deployment of tool in the solver, achieving 28% runtime improvement over previous default strategy
+  (deployed in CPLEX 12.10.0).
   
 - **Polytechnique Montréal** • T<small style="font-size: 75%">EACHING</small> A<small style="font-size: 75%">SSISTANT</small> <br>
 <span style="color:gray">2017 - 2019 • Montréal, Canada</span><br>
 Graduate-level introduction to Mixed-Integer Linear Programming: modeling, exponential formulations, computational aspects. Exercise sessions, grading and students support (3 semesters, up to 30 students/class).
+
+- **Polytechnique Montréal** • R<small style="font-size: 75%">ESEARCHER</small> <br>
+<span style="color:gray">2015 - 2020 • Montréal, Canada</span><br>
+Leading of several data science projects applying different ML techniques to new data sources. 
+  Contributed reusable methodologies to a novel research field, from data identification to careful target and feature engineering. 
+  Designed new performance metrics to account for context‐specific impact. 
+  Developed and executed automated data and analytical workflows on distributed computing clusters.
 
 - **Business Integration Partners** • C<small style="font-size: 75%">ONSULTANT</small> I<small style="font-size: 75%">NTERN</small> <br>
 <span style="color:gray">2015 • Milan, Italy</span><br>
@@ -52,36 +69,42 @@ Graduate-level introduction to Mixed-Integer Linear Programming: modeling, expon
   
 ### Skills
 
-- **Optimization + modeling**: SCIP Optimization Suite, IBM ILOG CPLEX Optimization Studio, AIMMS, MATLAB
 - **Data visualization + manipulation**: Python, numpy, pandas, matplotlib, MS Excel, SQL
-- **Machine learning**: scikit-learn, PyTorch
-- **Languages**: Italian (native), English (fluent), French (basic)
+- **Machine learning + computing**: scikit-learn, PyTorch, Bash, distributed computing clusters
+- **Optimization + modeling**: SCIP Optimization Suite, IBM ILOG CPLEX Optimization Studio, AIMMS, MATLAB
+- **Languages**: Italian (native), English (fluent), French (beginner)
 
-### Selected works
+### Publications
 <small style="font-size: 80%">
-Authors are listed alphabetically, as is standard practice in Operations Research journals and conferences, with the only exception of our AAAI paper, in which authors are listed by relative contribution following the practice in Computer Science. I am the first author in all these works.<br> 
+Authors are listed alphabetically, as is standard practice in Operations Research journals and conferences, 
+with the only exception of [1] and [3], in which authors are listed by relative contribution following the practice in Computer Science. 
+I am first author in all reported works except [1].<br> 
 For a complete list of publications, please see my Google Scholar [page](https://scholar.google.com/citations?user=5bfwQSQAAAAJ&hl=en&oi=ao).
 </small>
 
-- [Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies](https://ojs.aaai.org/index.php/AAAI/article/view/16512)<br> 
-  GZ, Jason Jo, Andrea Lodi and Yoshua Bengio (2021)<br>
-  Proceedings of the AAAI Conference on Artificial Intelligence, 35(5), 3931-3939.
+1. [Learning to Cut by Looking Ahead: Cutting Plane Selection via Imitation Learning](https://proceedings.mlr.press/v162/paulus22a.html)<br>
+   Max B. Paulus, GZ, Andreas Krause, Laurent Charlin, Chris J. Maddison (2022)<br> 
+   Proceedings of the 39th International Conference on Machine Learning, PMLR 162:17584‐17600. ICML 2022.
+   
+2. [A Classifier to Decide on the Linearization of Mixed-Integer Quadratic Problems in CPLEX](https://pubsonline.informs.org/doi/abs/10.1287/opre.2022.2267)<br>
+   Pierre Bonami, Andrea Lodi and GZ (2022)<br>
+   Operations Research.
+
+3. [Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies](https://ojs.aaai.org/index.php/AAAI/article/view/16512)<br>
+   GZ, Jason Jo, Andrea Lodi and Yoshua Bengio (2021)<br>
+   Proceedings of the AAAI Conference on Artificial Intelligence, 35(5), 3931-3939. AAAI 2021.
+   
+4. [Learning MILP Resolution Outcomes Before Reaching Time-Limit](https://link.springer.com/chapter/10.1007/978-3-030-19212-9_18)<br>
+   Martina Fischetti, Andrea Lodi and GZ (2019)<br>
+   Integration of Constraint Programming, Artificial Intelligence, and Operations Research. CPAIOR 2019.
   
-- [A Classifier to Decide on the Linearization of Mixed-Integer Quadratic Problems in CPLEX](http://www.optimization-online.org/DB_HTML/2020/03/7662.html)<br>
-  Pierre Bonami, Andrea Lodi and GZ (2020)<br>
-  *To appear in Operations Research*.
-  
-- [Learning MILP Resolution Outcomes Before Reaching Time-Limit](https://link.springer.com/chapter/10.1007/978-3-030-19212-9_18)<br>
-  Martina Fischetti, Andrea Lodi and GZ (2019)<br>
-  Integration of Constraint Programming, Artificial Intelligence, and Operations Research. CPAIOR 2019.
-  
-- [Learning a Classification of Mixed-Integer Quadratic Programming Problems](https://link.springer.com/chapter/10.1007/978-3-319-93031-2_43)<br>
-  Pierre Bonami, Andrea Lodi and GZ (2018)<br>
-  Integration of Constraint Programming, Artificial Intelligence, and Operations Research. CPAIOR 2018.
-  
-- [On learning and branching: a survey](https://link.springer.com/article/10.1007/s11750-017-0451-6)<br>
-  Andrea Lodi and GZ (2017)<br>
-  TOP25, 207–236.
+5. [Learning a Classification of Mixed-Integer Quadratic Programming Problems](https://link.springer.com/chapter/10.1007/978-3-319-93031-2_43)<br>
+   Pierre Bonami, Andrea Lodi and GZ (2018)<br>
+   Integration of Constraint Programming, Artificial Intelligence, and Operations Research. CPAIOR 2018.
+   
+6. [On learning and branching: a survey](https://link.springer.com/article/10.1007/s11750-017-0451-6)<br>
+   Andrea Lodi and GZ (2017)<br>
+   TOP 25, 207–236.
   
 ### Scholarships and awards
 
@@ -112,6 +135,7 @@ For a complete list of publications, please see my Google Scholar [page](https:/
 
 ### Selected talks and posters
 
+- (Upcoming) Workshop on Data Science for Real‐Time Decision‐Making, *Learning to cut by looking ahead: cutting plane selection via imitation learning*. August 16, 2022.
 - Toronto AI Safety Reading Group, *Verification of neural networks: a primer*. June 4, 2021.
 - AAAI 2021, *Parameterizing Branch-and-Bound search trees to learn branching policies*. February 2-9, 2021.
 - Montréal Machine Learning and Optimization (MTLMLOpt) Seminar, *Machine learning algorithms in Mixed-Integer Programming*. June 26, 2020.
