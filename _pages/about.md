@@ -18,22 +18,28 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi! I am presently based in New York City, where I joined [UN Global Pulse](https://www.unglobalpulse.org) as a **Data Science Research Fellow**. 
-Before this I worked as an AI Scientist at the [Vector Institute](https://vectorinstitute.ai), 
-in the group of [Prof. Chris J. Maddison](https://www.cs.toronto.edu/~cmaddis/). 
-My training is at the intersection of data science, machine learning, and optimization.
+Hi! I am presently a **Data Scientist** at the [Eric and Wendy Schmidt Center for Data Science and Environment](https://dse.berkeley.edu), 
+at the heart of UC Berkeley. Together with my [team](https://dse.berkeley.edu/people), I work to co-create and develop accessible solutions for the people and the planet.
+
+Before this, I joined [UN Global Pulse](https://www.unglobalpulse.org) in New York City as a Data Science Research Fellow,
+contributing ideas, code and new functionalities to multidisciplinary data science efforts for humanitarian response.
+
+My training is at the intersection of data science, machine learning, and optimization. <br>
+I worked as an AI Scientist at the [Vector Institute](https://vectorinstitute.ai) 
+in the group of [Prof. Chris J. Maddison](https://www.cs.toronto.edu/~cmaddis/), and 
+did my Ph.D. in Applied Mathematics at [Polytechnique Montréal](https://www.polymtl.ca/en/) as part of the 
+Canada Excellence Research Chair in [Data Science for real-time Decision-Making](https://cerc-datascience.polymtl.ca), 
+under the guidance of [Prof. Andrea Lodi](https://tech.cornell.edu/people/andrea-lodi/). 
+My [dissertation](https://publications.polymtl.ca/5332/) focused on applying machine learning tools to the algorithmic design of practical optimization 
+frameworks like Mixed-Integer Programming. 
+Previously, I completed B.Sc. and M.Sc. programs in Mathematics at [University of Padova](https://www.math.unipd.it/en/).
 
 [comment]: <> (My research explores the **interplay of discrete optimization and statistical learning**.)
 
 [comment]: <> (You can find my publications [here]&#40;https://scholar.google.com/citations?user=5bfwQSQAAAAJ&hl=en&oi=ao&#41;.)
 
 
-I did my Ph.D. in Applied Mathematics at [Polytechnique Montréal](https://www.polymtl.ca/en/) as part of the 
-Canada Excellence Research Chair in [Data Science for real-time Decision-Making](https://cerc-datascience.polymtl.ca), 
-under the guidance of [Prof. Andrea Lodi](https://tech.cornell.edu/people/andrea-lodi/). 
-My [dissertation](https://publications.polymtl.ca/5332/) focused on applying machine learning tools to the algorithmic design of practical optimization 
-frameworks like Mixed-Integer Programming. 
-Before, I completed Bachelor's and Master's programs in Mathematics at [University of Padova](https://www.math.unipd.it/en/).
+[comment]: <> (continuous desire to pair her scientific background with making a positive impact.)
 
 [comment]: <> (Alongside MIP, I am also interested in sequential decision‐making, search, representation and generalization issues. )
 

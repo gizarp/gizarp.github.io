@@ -15,10 +15,14 @@ nav: true
 
 ### Experience
 
+- **The Eric and Wendy Schmidt Center for Data Science and Environment** • D<small style="font-size: 75%">ATA</small> S<small style="font-size: 75%">CIENTIST</small><br>
+<span style="color:gray">2023 - present • Berkeley, CA</span><br>
+Co-creating and developing open tools and solutions for environmental problem-solving. 
+  
 - **UN Global Pulse** • D<small style="font-size: 75%">ATA</small> S<small style="font-size: 75%">CIENCE</small> R<small style="font-size: 75%">ESEARCH</small> F<small style="font-size: 75%">ELLOW</small><br>
-<span style="color:gray">2022 - present • New York, NY</span><br>
+<span style="color:gray">2022 - 2023 • New York, NY</span><br>
 Multidisciplinary data science efforts for humanitarian response and situational awareness in crisis contexts. 
-  Assessing needs and collaborating with UN partner entities.
+  Collaborating with several UN partner entities to assess data needs and develop operational AI frameworks. 
 
 - **Vector Institute** • AI S<small style="font-size: 75%">CIENTIST</small><br>
 <span style="color:gray">2021 - 2022 • Toronto, Canada</span><br>
@@ -135,7 +139,7 @@ For a complete list of publications, please see my Google Scholar [page](https:/
 
 ### Selected talks and posters
 
-- (Upcoming) Workshop on Data Science for Real‐Time Decision‐Making, *Learning to cut by looking ahead: cutting plane selection via imitation learning*. August 16, 2022.
+- Workshop on Data Science for Real‐Time Decision‐Making, *Learning to cut by looking ahead: cutting plane selection via imitation learning*. August 16, 2022.
 - Toronto AI Safety Reading Group, *Verification of neural networks: a primer*. June 4, 2021.
 - AAAI 2021, *Parameterizing Branch-and-Bound search trees to learn branching policies*. February 2-9, 2021.
 - Montréal Machine Learning and Optimization (MTLMLOpt) Seminar, *Machine learning algorithms in Mixed-Integer Programming*. June 26, 2020.
