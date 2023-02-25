@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://gizarp.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Giulia  Zarpellon
 
 
-  | Page not found
+  | projects
 
 </title>
 <meta name="description" content="">
@@ -22,8 +22,8 @@
 <meta property="og:site_name" content="" />
 <meta property="og:type" content="object" />
 <meta property="og:title" content="" />
-<meta property="og:url" content="https://gizarp.github.io/404.html" />
-<meta property="og:description" content="Page not found" />
+<meta property="og:url" content="https://gizarp.github.io/projects/" />
+<meta property="og:description" content="projects" />
 <meta property="og:image" content="/assets/img/gz_pic" />
 
 
@@ -44,7 +44,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💡</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://gizarp.github.io/404.html">
+<link rel="canonical" href="https://gizarp.github.io/projects/">
 
 
 <!-- Dark Mode -->
@@ -116,6 +116,8 @@
           
           
           
+          
+          
           <li class="nav-item ">
               <a class="nav-link" href="/cv/">
                 cv | résumé
@@ -137,9 +139,11 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/projects/">
                 projects
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -176,12 +180,97 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">projects</h1>
+    <p class="post-description">Here are some things I have been working on.</p>
   </header>
 
   <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://gizarp.github.io/">here</a>.</p>
+    <!---
+To have side-by-side pictures and text blocks, use the following template:
+(see https://talk.jekyllrb.com/t/inclusion-image-on-left-side-and-text-on-the-right-side-using-markdown-in-jekyll-site/3413/9)
+<div style="clear: both;">
+  <div style="float: left; margin-right 1em; padding-right: 25px">
+    <img src="/assets/img/sq-land-doig-tree.png" alt="" width="150px" height="200px">
+  </div>
+  <div>
+    <h5>Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies</h5>
+    <p>
+        We tackle variable selection in Branch-and-Bound (B&B) for Mixed-Integer Linear Programming (MILP) problems, 
+seeking policies that generalize across heterogeneous MILPs.
+We develop new parameterizations of the candidate variables and of the search trees, and design DNN architectures to handle them.
+Our results show that incorporating a search-tree context to modulate branching aids generalization, with better test accuracy and smaller B&B trees.
+        <br><br>
+        <a href="https://github.com/ds4dm/branch-search-trees" target="_blank"> [code] </a>
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/16512" target="_blank"> [paper] </a>
+        <a href="/assets/pdf/AAAI21-poster-gzarpellon.pdf" target="_blank" > [poster] </a>
+    </p>
+  </div>
+</div>
+-->
+
+<ul>
+  <li>
+    <p><strong>Learning to Cut by Looking Ahead: Cutting Plane Selection via Imitation Learning</strong><br>
+  <small style="font-size: 85%; color:gray">Joint with Max B. Paulus, Andreas Krause, Laurent Charlin and Chris J. Maddison. ICML 2022.</small>
+  <br>
+      <a href="https://proceedings.mlr.press/v162/paulus22a.html" target="_blank" rel="noopener noreferrer"> [paper] </a>
+  <br>
+  We propose a new neural architecture (NeuralCut) for cut selection in Mixed-Integer Linear Programming (MILP). 
+  We train our model by imitation of a novel “lookahead” expert rule, which explicitly measures which cuts yield the best bound improvement.
+  Our model outperforms standard baselines for cut selection on several synthetic MILP benchmarks and shows its full potential when
+  deployed in a realistic MILP solver.</p>
+  </li>
+  <li>
+    <p><strong>A Classifier to Decide on the Linearization of MIQPs in CPLEX</strong> +<br>
+<strong>Learning a Classification of Mixed-Integer Quadratic Programming Problems</strong><br>
+  <small style="font-size: 85%; color:gray">Joint with Pierre Bonami and Andrea Lodi. Operations Research 2022 + CPAIOR 2018.</small>
+  <br>
+      <a href="https://github.com/ds4dm/miqp-clf2lin" target="_blank" rel="noopener noreferrer"> [code] </a>
+      <a href="https://pubsonline.informs.org/doi/abs/10.1287/opre.2022.2267" target="_blank" rel="noopener noreferrer"> [2022 paper] </a>
+      <a href="https://link.springer.com/chapter/10.1007/978-3-319-93031-2_43" target="_blank" rel="noopener noreferrer"> [2018 paper] </a>
+  <br>
+  We translate the algorithmic question of whether to linearize convex Mixed-Integer Quadratic Programming problems (MIQPs) into a classification task, 
+  and use machine learning techniques to tackle it. We represent MIQPs and the linearization decision by careful target and feature engineering, 
+  designing learning experiments and evaluation metrics. As a practical result, we deploy a SVM regression+classification pipeline deciding on MIQP 
+  linearization in the IBM-CPLEX 12.10.0 commercial solver.</p>
+  </li>
+  <li>
+    <p><strong>Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies</strong><br>
+  <small style="font-size: 85%; color:gray">Joint with Jason Jo, Andrea Lodi and Yoshua Bengio. AAAI 2021.</small>
+  <br>
+      <a href="https://github.com/ds4dm/branch-search-trees" target="_blank" rel="noopener noreferrer"> [code] </a>
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/16512" target="_blank" rel="noopener noreferrer"> [paper] </a>
+      <a href="/assets/pdf/AAAI21-poster-gzarpellon.pdf" target="_blank"> [poster] </a>
+  <br>
+  We tackle variable selection in Branch-and-Bound (B&amp;B) for Mixed-Integer Linear Programming (MILP) problems, 
+  seeking policies that generalize across heterogeneous MILPs.
+  We develop new parameterizations of the candidate variables and of the search trees, and design DNN architectures to handle them.
+  Our results show that incorporating a search-tree context to modulate branching aids generalization, with better test accuracy and smaller B&amp;B trees.</p>
+  </li>
+  <li>
+    <p><strong>Learning MILP Resolution Outcomes Before Reaching Time-Limit</strong><br>
+  <small style="font-size: 85%; color:gray">Joint with Martina Fischetti and Andrea Lodi. CPAIOR 2019.</small>
+  <br>
+      <a href="https://github.com/ds4dm/milp-outcome" target="_blank" rel="noopener noreferrer"> [code] </a>
+      <a href="https://link.springer.com/chapter/10.1007/978-3-030-19212-9_18" target="_blank" rel="noopener noreferrer"> [paper] </a>
+  <br>
+  Looking at the evolution of a partial branch-and-bound (B&amp;B) tree for a MILP instance, we aim to predict whether the problem will be solved 
+  to proven optimality before timing out. We exploit machine learning tools, and summarize time-series information from the 
+  MILP resolution process to cast a prediction within a classification framework. Experiments show that a valuable statistical pattern can indeed be learned during B&amp;B optimization, 
+  with key predictive features reflecting the know-how and experience of field’s practitioners.</p>
+  </li>
+  <li>
+    <p><strong>On learning and branching: a survey</strong><br>
+  <small style="font-size: 85%; color:gray">Joint with Andrea Lodi. TOP 2017.</small>
+  <br>
+      <a href="https://link.springer.com/article/10.1007/s11750-017-0451-6" target="_blank" rel="noopener noreferrer"> [paper] </a>
+  <br>
+  We survey learning techniques to deal with the two most crucial decisions in the branch-and-bound algorithm for Mixed-Integer Linear Programming, 
+  namely variable and node selections. We interpret some early contributions in the light of modern learning techniques, 
+  and give the details of the recent algorithms that instead explicitly incorporate machine learning paradigms.</p>
+  </li>
+</ul>
+
 
   </article>
 
