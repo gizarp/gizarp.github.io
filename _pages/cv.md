@@ -15,8 +15,12 @@ nav: true
 
 ### Experience
 
+- **Eurecat - Technological Center of Catalonia** • D<small style="font-size: 75%">ATA</small> S<small style="font-size: 75%">CIENTIST</small><br>
+<span style="color:gray">2023 - present • Barcelona, Spain</span><br>
+Developing data-driven solutions in the Applied AI unit, across a variety of domains. 
+
 - **The Eric and Wendy Schmidt Center for Data Science and Environment** • D<small style="font-size: 75%">ATA</small> S<small style="font-size: 75%">CIENTIST</small><br>
-<span style="color:gray">2023 - present • Berkeley, CA</span><br>
+<span style="color:gray">2023 - 2023 • Berkeley, CA</span><br>
 Co-creating and developing open tools and solutions for environmental problem-solving. 
   
 - **UN Global Pulse** • D<small style="font-size: 75%">ATA</small> S<small style="font-size: 75%">CIENCE</small> R<small style="font-size: 75%">ESEARCH</small> F<small style="font-size: 75%">ELLOW</small><br>
@@ -81,32 +85,36 @@ Leading of several data science projects applying different ML techniques to new
 ### Publications
 <small style="font-size: 80%">
 Authors are listed alphabetically, as is standard practice in Operations Research journals and conferences, 
-with the only exception of [1] and [3], in which authors are listed by relative contribution following the practice in Computer Science. 
-I am first author in all reported works except [1].<br> 
+with the exception of [1], [2] and [4], in which authors are listed by relative contribution following the practice in Computer Science. 
+I am first author in all reported works except [2].<br> 
 For a complete list of publications, please see my Google Scholar [page](https://scholar.google.com/citations?user=5bfwQSQAAAAJ&hl=en&oi=ao).
 </small>
 
-1. [Learning to Cut by Looking Ahead: Cutting Plane Selection via Imitation Learning](https://proceedings.mlr.press/v162/paulus22a.html)<br>
+1. [Mitigating Disease Spread by Design in Refugee and IDP Camps](https://openreview.net/pdf?id=xcyyrir4iye)<br>
+   GZ, Joseph Aylett-Bullock, Frank Krauss, Miguel Luengo-Oroz (2023)<br>
+   Workshop on Machine Learning & Global Health. ICLR 2023. 
+
+2. [Learning to Cut by Looking Ahead: Cutting Plane Selection via Imitation Learning](https://proceedings.mlr.press/v162/paulus22a.html)<br>
    Max B. Paulus, GZ, Andreas Krause, Laurent Charlin, Chris J. Maddison (2022)<br> 
    Proceedings of the 39th International Conference on Machine Learning, PMLR 162:17584‐17600. ICML 2022.
    
-2. [A Classifier to Decide on the Linearization of Mixed-Integer Quadratic Problems in CPLEX](https://pubsonline.informs.org/doi/abs/10.1287/opre.2022.2267)<br>
+3. [A Classifier to Decide on the Linearization of Mixed-Integer Quadratic Problems in CPLEX](https://pubsonline.informs.org/doi/abs/10.1287/opre.2022.2267)<br>
    Pierre Bonami, Andrea Lodi and GZ (2022)<br>
    Operations Research.
 
-3. [Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies](https://ojs.aaai.org/index.php/AAAI/article/view/16512)<br>
+4. [Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies](https://ojs.aaai.org/index.php/AAAI/article/view/16512)<br>
    GZ, Jason Jo, Andrea Lodi and Yoshua Bengio (2021)<br>
    Proceedings of the AAAI Conference on Artificial Intelligence, 35(5), 3931-3939. AAAI 2021.
    
-4. [Learning MILP Resolution Outcomes Before Reaching Time-Limit](https://link.springer.com/chapter/10.1007/978-3-030-19212-9_18)<br>
+5. [Learning MILP Resolution Outcomes Before Reaching Time-Limit](https://link.springer.com/chapter/10.1007/978-3-030-19212-9_18)<br>
    Martina Fischetti, Andrea Lodi and GZ (2019)<br>
    Integration of Constraint Programming, Artificial Intelligence, and Operations Research. CPAIOR 2019.
   
-5. [Learning a Classification of Mixed-Integer Quadratic Programming Problems](https://link.springer.com/chapter/10.1007/978-3-319-93031-2_43)<br>
+6. [Learning a Classification of Mixed-Integer Quadratic Programming Problems](https://link.springer.com/chapter/10.1007/978-3-319-93031-2_43)<br>
    Pierre Bonami, Andrea Lodi and GZ (2018)<br>
    Integration of Constraint Programming, Artificial Intelligence, and Operations Research. CPAIOR 2018.
    
-6. [On learning and branching: a survey](https://link.springer.com/article/10.1007/s11750-017-0451-6)<br>
+7. [On learning and branching: a survey](https://link.springer.com/article/10.1007/s11750-017-0451-6)<br>
    Andrea Lodi and GZ (2017)<br>
    TOP 25, 207–236.
   
@@ -118,6 +126,10 @@ For a complete list of publications, please see my Google Scholar [page](https:/
 2017 • Honorable Mention Prize, Poster Competition, The 2017 Mixed Integer Programming Workshop<br>
 
 ### Workshops and teaching
+
+- [ML4MIP – Lessons learned and notes from my experience](https://mathplus.de/topic-development-lab/tes-summer-2023/final-conference/)<br>
+  S<small style="font-size: 75%">UMMER</small> S<small style="font-size: 75%">CHOOL</small> P<small style="font-size: 75%">RESENTER</small> • TES Summer School 2023 <br>
+  Reflecting on my experience working at the intersection of ML and MIP technologies.
 
 - [Recent Advances in Integrating Machine Learning and Combinatorial Optimization](https://aaai.org/Conferences/AAAI-21/aaai21tutorials/)<br>
   T<small style="font-size: 75%">UTORIAL</small> P<small style="font-size: 75%">RESENTER</small> • AAAI 2021 <br>
@@ -139,6 +151,8 @@ For a complete list of publications, please see my Google Scholar [page](https:/
 
 ### Selected talks and posters
 
+- CIDAI, *Data-driven approaches to predict power consumption in an industrial refrigeration system*. May 16, 2024. 
+- TES Summer School, *ML4MIP – Lessons learned and notes from my experience*. September 12, 2023, Berlin, Germany.
 - Workshop on Data Science for Real‐Time Decision‐Making, *Learning to cut by looking ahead: cutting plane selection via imitation learning*. August 16, 2022.
 - Toronto AI Safety Reading Group, *Verification of neural networks: a primer*. June 4, 2021.
 - AAAI 2021, *Parameterizing Branch-and-Bound search trees to learn branching policies*. February 2-9, 2021.

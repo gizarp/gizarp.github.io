@@ -18,13 +18,16 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi! I am presently a **Data Scientist** at the [Eric and Wendy Schmidt Center for Data Science and Environment](https://dse.berkeley.edu), 
+Hi! I am presently a **Data Scientist** at [Eurecat - Technological Center of Catalonia](https://eurecat.org/home/en/) (Spain). 
+In the Applied AI unit we tackle problems arising from different phases of R+D+I and across a variety of domains -- from logistics, to energy and climate change.
+
+Before this, I was a data scientist at the [Eric and Wendy Schmidt Center for Data Science and Environment](https://dse.berkeley.edu), 
 at the heart of UC Berkeley. Together with my [team](https://dse.berkeley.edu/people), I work to co-create and develop accessible solutions for the people and the planet.
 
-Before this, I joined [UN Global Pulse](https://www.unglobalpulse.org) in New York City as a Data Science Research Fellow,
+Previously, I joined [UN Global Pulse](https://www.unglobalpulse.org) in New York City as a Data Science Research Fellow,
 contributing ideas, code and new functionalities to multidisciplinary data science efforts for humanitarian response.
 
-My training is at the intersection of data science, machine learning, and optimization. <br>
+**My training is at the intersection of data science, machine learning, and optimization.** <br>
 I worked as an AI Scientist at the [Vector Institute](https://vectorinstitute.ai) 
 in the group of [Prof. Chris J. Maddison](https://www.cs.toronto.edu/~cmaddis/), and 
 did my Ph.D. in Applied Mathematics at [Polytechnique Montréal](https://www.polymtl.ca/en/) as part of the 
